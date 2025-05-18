@@ -18,13 +18,13 @@ This project serves as:
 
 ## 🧩 Patterns Covered
 
-| Pattern         | Problems                              |
-|----------------|----------------------------------------|
-| 🟦 Hash Table   | `Two Sum`, `Contains Duplicate`        |
-| ⬜ Two Pointers | _Coming next..._                       |
-| ⬜ Sliding Window | _TBD_                                |
-| ⬜ Stack / Queue | _TBD_                                 |
-| ⬜ Binary Search | _TBD_                                 |
+| Pattern         | Problems                                       |
+|----------------|------------------------------------------------|
+| 🟦 Hash Table   | `Two Sum`, `Contains Duplicate`                |
+| 🟨 Two Pointers | `Two Sum II`, `Reverse String`                 |
+| ⬜ Sliding Window | _TBD_                                        |
+| ⬜ Stack / Queue | _TBD_                                         |
+| ⬜ Binary Search | _TBD_                                         |
 
 > Each folder corresponds to one algorithm pattern and contains clear, commented PHP solutions.
 
@@ -38,7 +38,8 @@ This project serves as:
         * `two-sum.php`
         * `contains-duplicate.php`
     * `two-pointers/`
-        * `(coming soon...)`
+        * `two-sum-ii.php`
+        * `reverse-string.php`
     * `README.md`
 
 You can visit `algorithm-patterns.test/` locally to browse and run any PHP file directly (using Laravel Herd or similar).

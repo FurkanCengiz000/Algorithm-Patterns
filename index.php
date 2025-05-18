@@ -1,8 +1,11 @@
 <?php
 
 $root = __DIR__;
+$ignoredFolders = ['.git'];
 
 function listDirectory($dir) {
+    global $ignoredFolders;
+
     $items = scandir($dir);
     $items = array_diff($items, ['.', '..']);
 
@@ -11,6 +14,10 @@ function listDirectory($dir) {
     foreach ($items as $item) {
         $fullPath = "$dir/$item";
         $relativePath = str_replace(__DIR__ . '/', '', $fullPath);
+
+        if (in_array($item, $ignoredFolders)) {
+            continue;
+        }
 
         if (is_dir($fullPath)) {
             echo "<li><strong>$item/</strong>";
