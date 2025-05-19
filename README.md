@@ -18,13 +18,14 @@ This project serves as:
 
 ## 🧩 Patterns Covered
 
-| Pattern         | Problems                                       |
-|----------------|------------------------------------------------|
-| 🟦 Hash Table   | `Two Sum`, `Contains Duplicate`                |
-| 🟨 Two Pointers | `Two Sum II`, `Reverse String`                 |
-| ⬜ Sliding Window | _TBD_                                        |
-| ⬜ Stack / Queue | _TBD_                                         |
-| ⬜ Binary Search | _TBD_                                         |
+| Pattern           | Problems                                               |
+|------------------|--------------------------------------------------------|
+| 🟦 Hash Table     | `Two Sum`, `Contains Duplicate`                        |
+| 🟨 Two Pointers   | `Two Sum II`, `Reverse String`                         |
+| 🟩 Sliding Window | `Max Subarray Sum (Fixed Size)`, `Max Average Subarray I` |
+| ⬜ Stack / Queue   | _TBD_                                                 |
+| ⬜ Binary Search   | _TBD_                                                 |
+
 
 > Each folder corresponds to one algorithm pattern and contains clear, commented PHP solutions.
 
@@ -40,6 +41,9 @@ This project serves as:
     * `two-pointers/`
         * `two-sum-ii.php`
         * `reverse-string.php`
+    * `sliding-window/`
+        * `max-subarray-sum-k.php`
+        * `max-average-subarray-i.php`
     * `README.md`
 
 You can visit `algorithm-patterns.test/` locally to browse and run any PHP file directly (using Laravel Herd or similar).
